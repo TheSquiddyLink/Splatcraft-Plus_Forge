@@ -21,5 +21,8 @@
     "item.splatcraftplus.mobility_chip": "Mobility Chip",
     "item.splatcraftplus.range_chip": "Range Chip",
     "item.splatcraftplus.support_chip": "Support Chip",
+    "item.splatcraftplus.empty_palette": "Empty Palette",
+    "item.splatcraftplus.big_man_palette": "Big Man's Palette",
+    "item.splatcraftplus.pearl_palette": "Pearl's Palette",
     "itemGroup.splatcraft_plus": "Splatcraft Plus Weapons"
 }
