@@ -14,7 +14,7 @@ Weapons inspired by the Splatoon 3 Side Order DLC
 [X] Order Shot\
 [X] Octo Shot\
 [X] Order Dualies\
-[ ] Order Slosher\
+[X] Order Slosher\
 [ ] Order Splatling\
 [ ] Order Blaster\
 [ ] Order Brush\
@@ -50,7 +50,7 @@ Weapons inspried by missing weapons from SplatCraft
 ## Plans
 
 ### Splatoon 2 Hero Weapons
-[ ] Fix splatlink ink color\
+[ ] Fix splatling ink color\
 [ ] Adjust Metalic Splatling\
 [ ] Fix off scale splatling handle
 
