@@ -32,7 +32,7 @@ Weapons inspired by the Hero Modes of Splatoon 1,2, and 3
 [ ] Hero Roller*\
 [X] Hero Blaster\
 [X] Hero Slosher\
-[ ] Hero Brush\
+[X] Hero Brush\
 [ ] Hero Splatling
 #### Splatcraft+
 
