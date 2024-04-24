@@ -1,0 +1,6 @@
+{
+    "overrides": [
+        { "predicate": { "splatcraft:unfolded": 0 }, "model": "splatcraftplus:item/herobrush_folded" },
+        { "predicate": {"splatcraft:unfolded": 1}, "model": "splatcraftplus:item/herobrush_unfolded"}
+    ]
+}
