@@ -1,6 +1,7 @@
 package com.salmonpants.splatcraftplus;
 
 import com.mojang.logging.LogUtils;
+import com.salmonpants.splatcraftplus.items.ColorChip;
 import com.salmonpants.splatcraftplus.items.HeroBlueprint;
 import com.salmonpants.splatcraftplus.items.OrderBlueprint;
 import com.salmonpants.splatcraftplus.items.weapons.hero_weapons.*;
@@ -73,6 +74,9 @@ public class SplatcraftPlus
     public static final RegistryObject<SlosherItem> HERO_SLOSHER = ITEMS.register("hero_slosher", () -> new HeroSlosher());
     public static final RegistryObject<RollerItem> HERO_BRUSH = ITEMS.register("herobrush", () -> new HeroBrush());
     public static final RegistryObject<SplatlingItem> HERO_SPLATLING = ITEMS.register("hero_splatling", () -> new HeroSplatling());
+    
+    // Palette
+    public static final RegistryObject<Item> POWER_CHIP = ITEMS.register("power_chip", () -> new ColorChip());
     {
         // Register the setup method for modloading
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
