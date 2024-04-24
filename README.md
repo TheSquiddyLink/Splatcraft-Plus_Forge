@@ -63,8 +63,8 @@ Weapons inspried by missing weapons from SplatCraft
 ### Miscellaneous
 [ ] Add lang for blueprint message\
 [ ] Add lang for advancements
-## Recipes
-### Side Order
+### Recipes
+#### Side Order
 [X] Add Ordershot Recipe\
 [ ] Change Ordershot Recipe\
 [X] Add Order Blaster Recipe\
@@ -78,7 +78,7 @@ Weapons inspried by missing weapons from SplatCraft
 [X] Add Octoshot Recipe\
 [ ] Change Octoshot Recipe 
 
-###
+#### Hero Mode
 [ ] Hero Shot MK I Recipe\
 [ ] Change Hero Shot MK I Recipe\
 [ ] Hero Shot MK II Recipe\
