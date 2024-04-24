@@ -98,12 +98,15 @@ Weapons inspried by missing weapons from SplatCraft
 [X] Hero Splatling Recipe\
 [ ] Change hero Splatling Recipe
 #### Palettes
-[X] Pearl
-[ ] Agent 4
-[ ] Callie
-[ ] Marie 
-[ ] Murch
-[X] Big Man
-[ ] Sheldon
-[ ] DJ Octavio
-[ ] Eight
+[X] Pearl\
+[ ] Marina *\
+[X] Agent 4\
+[ ] Callie\
+[ ] Marie \
+[ ] Shiver *\
+[ ] Frye *\
+[X] Big Man\
+[ ] Sheldon\
+[ ] Murch\
+[ ] DJ Octavio\
+[ ] Eight\
