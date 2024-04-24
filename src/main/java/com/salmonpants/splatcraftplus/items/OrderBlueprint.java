@@ -14,8 +14,10 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;
 
 public class OrderBlueprint extends Item {
+    private static final String PATH = "splatcraftplus:unlocks/order/";
     private static final String[] ADVANCMENTS = {
-        "splatcraftplus:unlocks/order/ordershot"
+        "ordershot",
+        "order_dualie"
     };
 
     public OrderBlueprint() {
@@ -29,12 +31,12 @@ public class OrderBlueprint extends Item {
             // Retrieve the advancement for the player
             Random random = new Random();
             int randomIndex = random.nextInt(ADVANCMENTS.length);
-            ResourceLocation advancementId = new ResourceLocation(ADVANCMENTS[randomIndex]);
+            ResourceLocation advancementId = new ResourceLocation(PATH+ADVANCMENTS[randomIndex]);
             if (serverPlayer.getServer().getAdvancements().getAdvancement(advancementId) != null) {
                 // Grant the advancement to the player
                 serverPlayer.getAdvancements().award(serverPlayer.getServer().getAdvancements().getAdvancement(advancementId), "default");
                 // Display a message to the player
-                serverPlayer.displayClientMessage(new TranslatableComponent(ADVANCMENTS[randomIndex]), true);
+                serverPlayer.displayClientMessage(new TranslatableComponent(PATH+ADVANCMENTS[randomIndex]), true);
             }
         }
         // Return PASS to allow the default behavior (e.g., placing a block if applicable)
