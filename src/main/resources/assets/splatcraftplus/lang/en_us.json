@@ -3,5 +3,8 @@
     "item.splatcraftplus.order_blueprint": "Order Blueprint",
     "item.splatcraftplus.ordershot": "Ordershot",
     "item.splatcraftplus.order_dualie": "Order Dualie",
-    "item.splatcraftplus.order_blaster": "Order Blaster"
+    "item.splatcraftplus.order_blaster": "Order Blaster",
+    "item.splatcraftplus.order_slosher": "Order Slosher",
+    "item.splatcraftplus.order_brush": "Order Brush",
+    "itemGroup.splatcraft_plus": "Splatcraft Plus Weapons"
 }

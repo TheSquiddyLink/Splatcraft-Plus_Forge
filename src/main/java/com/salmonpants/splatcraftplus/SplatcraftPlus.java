@@ -3,7 +3,10 @@ package com.salmonpants.splatcraftplus;
 import com.mojang.logging.LogUtils;
 import com.salmonpants.splatcraftplus.items.OrderBlueprint;
 import com.salmonpants.splatcraftplus.items.weapons.order_weapons.*;
+
+import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.MinecraftForge;
@@ -33,12 +36,12 @@ public class SplatcraftPlus
 
     public static final String MODID = "splatcraftplus";
 
-    // public static final CreativeModeTab TAB = new CreativeModeTab("splatcraft_plus") {
-    //     @Override
-    //     public ItemStack makeIcon() {
-    //         return new ItemStack(Blocks.COBWEB);
-    //     }
-    // };
+    public static final CreativeModeTab TAB = new CreativeModeTab("splatcraft_plus") {
+        @Override
+        public ItemStack makeIcon() {
+            return new ItemStack(ORDER_BLUEPRINT.get());
+        }
+    };
 
 
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, MODID);
