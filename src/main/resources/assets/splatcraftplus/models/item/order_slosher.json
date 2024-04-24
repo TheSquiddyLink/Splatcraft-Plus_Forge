@@ -2,8 +2,7 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [32, 32],
 	"textures": {
-		"0": "splatcraftplus:items/order_slosher",
-		"particle": "splatcraft:items/order_slosher"
+		"0": "splatcraftplus:items/order_slosher"
 	},
 	"elements": [
 		{
@@ -990,45 +989,6 @@
 				"up": {"uv": [0.5, 15.5, 1, 16], "texture": "#0"},
 				"down": {"uv": [0.5, 15.5, 1, 16], "texture": "#0"}
 			}
-		},
-		{
-			"from": [10.85672, 0.3537, 6.72245],
-			"to": [11.18172, 0.6537, 12.14745],
-			"rotation": {"angle": -22.5, "axis": "x", "origin": [11.08172, 0.3, 7.39175]},
-			"faces": {
-				"north": {"uv": [1, 15.5, 1.5, 16], "texture": "#0"},
-				"east": {"uv": [1, 15.5, 1.5, 16], "texture": "#0"},
-				"south": {"uv": [1, 15.5, 1.5, 16], "texture": "#0"},
-				"west": {"uv": [1, 15.5, 1.5, 16], "texture": "#0"},
-				"up": {"uv": [1, 15.5, 1.5, 16], "texture": "#0"},
-				"down": {"uv": [1, 15.5, 1.5, 16], "texture": "#0"}
-			}
-		},
-		{
-			"from": [4.83172, 0.3537, 6.72245],
-			"to": [5.15672, 0.6537, 12.14745],
-			"rotation": {"angle": -22.5, "axis": "x", "origin": [4.93172, 0.3, 7.39175]},
-			"faces": {
-				"north": {"uv": [1, 15.5, 1.5, 16], "texture": "#0"},
-				"east": {"uv": [1, 15.5, 1.5, 16], "texture": "#0"},
-				"south": {"uv": [1, 15.5, 1.5, 16], "texture": "#0"},
-				"west": {"uv": [1, 15.5, 1.5, 16], "texture": "#0"},
-				"up": {"uv": [1, 15.5, 1.5, 16], "texture": "#0"},
-				"down": {"uv": [1, 15.5, 1.5, 16], "texture": "#0"}
-			}
-		},
-		{
-			"from": [4.83172, 0.3537, 12.14745],
-			"to": [11.18172, 0.6537, 12.44745],
-			"rotation": {"angle": -22.5, "axis": "x", "origin": [11.08172, 0.3, 7.39175]},
-			"faces": {
-				"north": {"uv": [1, 15.5, 1.5, 16], "texture": "#0"},
-				"east": {"uv": [1, 15.5, 1.5, 16], "texture": "#0"},
-				"south": {"uv": [1, 15.5, 1.5, 16], "texture": "#0"},
-				"west": {"uv": [1, 15.5, 1.5, 16], "texture": "#0"},
-				"up": {"uv": [1, 15.5, 1.5, 16], "texture": "#0"},
-				"down": {"uv": [1, 15.5, 1.5, 16], "texture": "#0"}
-			}
 		}
 	],
 	"display": {
@@ -1093,7 +1053,7 @@
 			"name": "Some Detail",
 			"origin": [8.05261, 4.62063, 7.83458],
 			"color": 0,
-			"children": [74, 75, 76, 77, 78]
+			"children": [74, 75]
 		}
 	]
 }
