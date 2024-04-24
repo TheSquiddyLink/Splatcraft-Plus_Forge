@@ -1,6 +1,7 @@
 package com.salmonpants.splatcraftplus;
 
 import com.mojang.logging.LogUtils;
+import com.salmonpants.splatcraftplus.items.HeroBlueprint;
 import com.salmonpants.splatcraftplus.items.OrderBlueprint;
 import com.salmonpants.splatcraftplus.items.weapons.hero_weapons.*;
 import com.salmonpants.splatcraftplus.items.weapons.order_weapons.*;
@@ -57,6 +58,7 @@ public class SplatcraftPlus
     public static final RegistryObject<RollerItem> ORDER_BRUSH = ITEMS.register("order_brush", () -> new OrderBrush());
 
     // Hero Weapons
+    public static final RegistryObject<Item> HERO_BLUEPRINT = ITEMS.register("hero_blueprint", () -> new HeroBlueprint());
     public static final RegistryObject<ShooterItem> HEROSHOT_1 = ITEMS.register("heroshot_1", () -> new HeroShot());
     {
         // Register the setup method for modloading

@@ -17,11 +17,12 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;
 
 public class Blueprint extends Item {
-    private static final String PATH = "splatcraftplus:unlocks/order/";
     private String[] ADVANCMENTS;
-    public Blueprint(String... ADVANCMENTS) {
+    private String PATH;
+    public Blueprint(String path, String... advancements) {
         super(new Item.Properties().tab(CreativeModeTab.TAB_MISC));
-        this.ADVANCMENTS = ADVANCMENTS;
+        this.ADVANCMENTS = advancements;
+        this.PATH = path;
     }
     @Override
     public InteractionResultHolder<ItemStack> use(Level world, Player player, InteractionHand hand) {

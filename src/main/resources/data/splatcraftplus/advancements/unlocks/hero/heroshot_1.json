@@ -1,0 +1,20 @@
+{
+    "display": {
+      "icon": {
+        "item": "splatcraftplus:heroshot_1"
+      },
+      "title": "Heroshot",
+      "description": "Get the Hero shot Recipe",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "splatcraftplus:unlocks/hero/root",
+    "criteria": {
+      "default": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }
+  
