@@ -85,7 +85,7 @@ Weapons inspried by missing weapons from SplatCraft
 [ ] Change Hero Shot MK II Recipe\
 [X] Hero Shot MK III Recipe\
 [ ] Change Hero Shot MK III Recipe\
-[ ] Hero Charger Recipe\
+[X] Hero Charger Recipe\
 [ ] Change Hero Charger Recipe\
 [ ] Hero Roller* Recipe\
 [ ] Change Hero Roller Recipe\
