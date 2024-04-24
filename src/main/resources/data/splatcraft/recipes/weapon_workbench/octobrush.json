@@ -75,6 +75,37 @@
         ]
       },
       {
+        "name": "weaponType.hero",
+        "advancement": "splatcraftplus:unlocks/hero/herobrush",
+        "result": {
+          "item": "splatcraftplus:herobrush",
+          "count": 1
+        },
+        "ingredients":
+        [
+          {
+            "item": "splatcraft:sardinium",
+            "count": 4
+          },
+          {
+            "item": "splatcraft:power_egg",
+            "count": 20
+          },
+          {
+            "item": "minecraft:ink_sac",
+            "count": 12
+          },
+          {
+            "item": "minecraft:wheat",
+            "count": 5
+          },
+          {
+            "item": "minecraft:iron_nugget",
+            "count": 16
+          }
+        ]
+      },
+      {
         "name": "weaponType.order",
         "advancement": "splatcraftplus:unlocks/order/order_brush",
         "result": {

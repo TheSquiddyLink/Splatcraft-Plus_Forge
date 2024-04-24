@@ -93,7 +93,7 @@ Weapons inspried by missing weapons from SplatCraft
 [ ] Change Hero Blaster Recipe\
 [X] Hero Slosher Recipe\
 [ ] Change Hero Slosher Recipe\
-[ ] Hero Brush Recipe\
+[X] Hero Brush Recipe\
 [ ] Change Hero Brush Recipe\
 [ ] Hero Splatling Recipe\
 [ ] Change hero Splatling Recipe
