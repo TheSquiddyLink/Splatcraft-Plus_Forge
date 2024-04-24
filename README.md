@@ -103,10 +103,10 @@ Weapons inspried by missing weapons from SplatCraft
 [X] Agent 4\
 [X] Callie\
 [X] Marie \
-[ ] Shiver *\
-[ ] Frye *\
+[X] Shiver *\
+[X] Frye *\
 [X] Big Man\
-[ ] Sheldon\
-[ ] Murch\
-[ ] DJ Octavio\
+[X] Sheldon\
+[X] Murch\
+[X] DJ Octavio\
 [ ] Eight\
