@@ -1,0 +1,24 @@
+{
+    "type": "splatcraft:weapon_workbench",
+    "tab": "splatcraft:weapon_workbench_tabs/rare",
+    "pos": 4,
+    "recipes": [
+      {
+        "name": "weaponType.original",
+        "advancement": "splatcraftplus:unlocks/hero/rainmaker",
+        "result": {
+          "item": "splatcraftplus:rainmaker",
+          "count": 1
+        },
+        "ingredients": [
+          {
+            "item": "splatcraft:sardinium",
+            "count": 6
+          }, {
+            "item": "minecraft:diamond",
+            "count": 20
+          }
+        ]
+      }
+    ]
+}
