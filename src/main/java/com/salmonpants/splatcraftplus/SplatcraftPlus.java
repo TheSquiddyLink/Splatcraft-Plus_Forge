@@ -80,7 +80,7 @@ public class SplatcraftPlus
     public static final RegistryObject<SlosherItem> RAINMAKER = ITEMS.register("rainmaker",() -> new Rainmaker());
     
     // Other Weapons
-    public static final RegistryObject<ChargerItem> TEST = ITEMS.register("snipe_writer", () -> new Snipewriter());
+    public static final RegistryObject<ChargerItem> TEST = ITEMS.register("snipewriter", () -> new Snipewriter());
     
     // Palettes
     public static final RegistryObject<Item> EMPTY_PALETTE = ITEMS.register("empty_palette", () -> new EmptyPalette(null));
