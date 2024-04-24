@@ -1,0 +1,19 @@
+{
+  "display": {
+    "icon": {
+      "item": "splatcraftplus:ordershot"
+    },
+    "title": "Order Shot",
+    "description": "Get the Order Shot Recipe",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "splatcraftplus:unlocks/order/root",
+  "criteria": {
+    "default": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}
