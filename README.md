@@ -25,9 +25,9 @@ Weapons inspired by the Splatoon 3 Side Order DLC
 
 Weapons inspired by the Hero Modes of Splatoon 1,2, and 3
 
-[ ] Hero Shot MK1 (Splatoon 1)\
-[ ] Hero Shot MK1 (Splatoon 2)\
-[ ] Hero Shot MK1 (Splatoon 3)\
+[X] Hero Shot MKI (Splatoon 1)\
+[X] Hero Shot MKII (Splatoon 2)\
+[ ] Hero Shot MKIII (Splatoon 3)\
 [ ] Hero Charger\
 [ ] Hero Roller\
 [ ] Hero Blaster\
