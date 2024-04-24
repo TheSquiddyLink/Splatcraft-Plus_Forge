@@ -1,0 +1,38 @@
+{
+    "display": {
+      "icon": {
+        "item": "splatcraftplus:rainmaker"
+      },
+      "title": "Make It Rain",
+      "description": "Get the Rainmaker Recipe",
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "splatcraftplus:unlocks/hero/root",
+    "criteria": {
+        "hero_blaster":  {
+            "trigger": "minecraft:impossible"
+        },
+        "hero_charger":  {
+            "trigger": "minecraft:impossible"
+        },
+        "hero_splatling":  {
+            "trigger": "minecraft:impossible"
+        },
+        "herobrush":  {
+            "trigger": "minecraft:impossible"
+        },
+        "heroshot_1":  {
+            "trigger": "minecraft:impossible"
+        },
+        "heroshot_2":  {
+            "trigger": "minecraft:impossible"
+        },
+        "heroshot_3":  {
+            "trigger": "minecraft:impossible"
+        }
+    }
+  }
+  
