@@ -3,6 +3,8 @@ package com.salmonpants.splatcraftplus.items;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Random;
 import net.minecraft.network.chat.TranslatableComponent;
 import net.minecraft.resources.ResourceLocation;
@@ -19,6 +21,7 @@ public class OrderBlueprint extends Item {
         "ordershot",
         "order_dualie"
     };
+    private static ArrayList<String> pool = new ArrayList<String>(Arrays.asList(ADVANCMENTS));
 
     public OrderBlueprint() {
         super(new Item.Properties().tab(CreativeModeTab.TAB_MISC));
@@ -30,13 +33,13 @@ public class OrderBlueprint extends Item {
             ServerPlayer serverPlayer = (ServerPlayer) player;
             // Retrieve the advancement for the player
             Random random = new Random();
-            int randomIndex = random.nextInt(ADVANCMENTS.length);
-            ResourceLocation advancementId = new ResourceLocation(PATH+ADVANCMENTS[randomIndex]);
+            int randomIndex = random.nextInt(pool.size());
+            ResourceLocation advancementId = new ResourceLocation(PATH+pool.get(randomIndex));
             if (serverPlayer.getServer().getAdvancements().getAdvancement(advancementId) != null) {
                 // Grant the advancement to the player
                 serverPlayer.getAdvancements().award(serverPlayer.getServer().getAdvancements().getAdvancement(advancementId), "default");
                 // Display a message to the player
-                serverPlayer.displayClientMessage(new TranslatableComponent(PATH+ADVANCMENTS[randomIndex]), true);
+                serverPlayer.displayClientMessage(new TranslatableComponent(PATH+pool.get(randomIndex)), true);
             }
         }
         // Return PASS to allow the default behavior (e.g., placing a block if applicable)
