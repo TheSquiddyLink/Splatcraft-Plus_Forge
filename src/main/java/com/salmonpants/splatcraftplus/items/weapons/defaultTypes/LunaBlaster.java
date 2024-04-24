@@ -5,10 +5,10 @@ import net.splatcraft.forge.items.weapons.BlasterItem;
 import net.splatcraft.forge.items.weapons.settings.WeaponSettings;
 import net.splatcraft.forge.registries.SplatcraftItems;
 public class LunaBlaster extends BlasterItem{
-    private static final RegistryObject<BlasterItem> luna_blaster = SplatcraftItems.lunaBlaster;
-    private static final BlasterItem item = luna_blaster.get();
-    private static final WeaponSettings settings = item.settings;
-    LunaBlaster(){
+    private static RegistryObject<BlasterItem> luna_blaster = SplatcraftItems.lunaBlaster;
+    private static BlasterItem item = luna_blaster.get();
+    private static WeaponSettings settings = item.settings;
+    public LunaBlaster(){
         super(settings);
     }
 }
