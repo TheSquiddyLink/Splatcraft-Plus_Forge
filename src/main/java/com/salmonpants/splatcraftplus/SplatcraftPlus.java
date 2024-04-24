@@ -65,6 +65,7 @@ public class SplatcraftPlus
     public static final RegistryObject<BlasterItem> ORDER_BLASTER = ITEMS.register("order_blaster", () -> new OrderBlaster());
     public static final RegistryObject<SlosherItem> ORDER_SLOSHER = ITEMS.register("order_slosher", () -> new OrderSlosher());
     public static final RegistryObject<RollerItem> ORDER_BRUSH = ITEMS.register("order_brush", () -> new OrderBrush());
+    public static final RegistryObject<SplatlingItem> ORDER_SPLATLING = ITEMS.register("order_splatling", () -> new OrderSplatling());
 
     // Hero Weapons
     public static final RegistryObject<Item> HERO_BLUEPRINT = ITEMS.register("hero_blueprint", () -> new HeroBlueprint());

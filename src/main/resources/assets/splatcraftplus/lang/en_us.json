@@ -6,6 +6,7 @@
     "item.splatcraftplus.order_blaster": "Order Blaster",
     "item.splatcraftplus.order_slosher": "Order Slosher",
     "item.splatcraftplus.order_brush": "Order Brush",
+    "item.splatcraftplus.order_splatling": "Order Splatling",
 
     "item.splatcraftplus.hero_blueprint": "Hero Blueprint",
     "item.splatcraftplus.heroshot_1": "Hero Shot MK I",
@@ -16,6 +17,7 @@
     "item.splatcraftplus.hero_slosher": "Hero Slosher",
     "item.splatcraftplus.herobrush": "Hero Brush",
     "item.splatcraftplus.hero_splatling": "Hero Splatling",
+    "item.splatcraftplus.rainmaker": "Rainmaker",
 
     "item.splatcraftplus.power_chip": "Power Chip",
     "item.splatcraftplus.lucky_chip": "Lucky Chip",
@@ -36,7 +38,8 @@
     "item.splatcraftplus.sheldon_palette": "Sheldon's Palette",
     "item.splatcraftplus.octavio_palette": "Octavio's Palette",
     "item.splatcraftplus.eight_palette": "Eight's Palette",
-    "item.splatcraftplus.rainmaker": "Rainmaker",
+
     "item.splatcraftplus.tooltip.unused": "UNUSED",
+
     "itemGroup.splatcraft_plus": "Splatcraft Plus Weapons"
 }
