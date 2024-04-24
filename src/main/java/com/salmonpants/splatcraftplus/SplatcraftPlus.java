@@ -61,6 +61,7 @@ public class SplatcraftPlus
     public static final RegistryObject<Item> HERO_BLUEPRINT = ITEMS.register("hero_blueprint", () -> new HeroBlueprint());
     public static final RegistryObject<ShooterItem> HEROSHOT_1 = ITEMS.register("heroshot_1", () -> new HeroShot_1());
     public static final RegistryObject<ShooterItem> HEROSHOT_2 = ITEMS.register("heroshot_2", ()-> new HeroShot_2());
+    public static final RegistryObject<ShooterItem> HEROSHOT_3 = ITEMS.register("heroshot_3", () -> new HeroShot_3());
     {
         // Register the setup method for modloading
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
