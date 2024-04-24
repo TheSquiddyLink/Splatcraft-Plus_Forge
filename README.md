@@ -17,7 +17,7 @@ Weapons inspired by the Splatoon 3 Side Order DLC
 [X] Order Slosher\
 [ ] Order Splatling\
 [X] Order Blaster\
-[X] Order Brush*\
+[X] Order Brush\
 [ ] Order Roller\
 [ ] Order Charger
 
@@ -43,9 +43,9 @@ Weapons inspried by missing weapons from SplatCraft
 [ ] TriSlosher Splatoon 3\
 [ ] Douser Dualies FF
 ## Miscellaneous
-[ ] Craftable Splatfest band 
-[X] Order Blueprint
-[X] Hero Blueprint
+[ ] Craftable Splatfest band \
+[X] Order Blueprint\
+[X] Hero Blueprint\
 [ ] Splatcraft+ Blueprint
 ## Plans
 
@@ -61,5 +61,5 @@ Weapons inspried by missing weapons from SplatCraft
 ### Splatcraft+
 [ ] Fix painbrush ink color
 ### Miscellaneous
-[ ] Add lang for blueprint message
+[ ] Add lang for blueprint message\
 [ ] Add lang for advancements
