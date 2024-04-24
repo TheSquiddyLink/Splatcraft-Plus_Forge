@@ -49,6 +49,7 @@ public class SplatcraftPlus
     public static final RegistryObject<DualieItem> ORDER_DUALIES = ITEMS.register("order_dualie", () -> new OrderDualie());
     public static final RegistryObject<BlasterItem> ORDER_BLASTER = ITEMS.register("order_blaster", () -> new OrderBlaster());
     public static final RegistryObject<SlosherItem> ORDER_SLOSHER = ITEMS.register("order_slosher", () -> new OrderSlosher());
+    public static final RegistryObject<RollerItem> ORDER_BRUSH = ITEMS.register("order_brush", () -> new OrderBrush());
 
     {
         // Register the setup method for modloading
