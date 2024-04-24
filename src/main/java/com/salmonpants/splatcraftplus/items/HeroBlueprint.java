@@ -6,7 +6,8 @@ public class HeroBlueprint extends Blueprint{
          "heroshot_1", 
          "heroshot_2",
          "heroshot_3",
-         "hero_charger"
+         "hero_charger",
+         "hero_blaster"
          );
     }
 }
