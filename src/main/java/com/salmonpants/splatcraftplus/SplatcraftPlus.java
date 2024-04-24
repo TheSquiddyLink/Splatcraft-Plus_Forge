@@ -65,6 +65,7 @@ public class SplatcraftPlus
     public static final RegistryObject<ChargerItem> HERO_CHARGER = ITEMS.register("hero_charger", () -> new HeroCharger());
     public static final RegistryObject<BlasterItem> HERO_BLASTER = ITEMS.register("hero_blaster",() -> new HeroBlaster());
     public static final RegistryObject<SlosherItem> HERO_SLOSHER = ITEMS.register("hero_slosher", () -> new HeroSlosher());
+    public static final RegistryObject<RollerItem> HERO_BRUSH = ITEMS.register("herobrush", () -> new HeroBrush());
     {
         // Register the setup method for modloading
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
