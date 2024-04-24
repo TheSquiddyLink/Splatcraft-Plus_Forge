@@ -77,6 +77,7 @@ public class SplatcraftPlus
     
     // Palette
     public static final RegistryObject<Item> POWER_CHIP = ITEMS.register("power_chip", () -> new ColorChip());
+    public static final RegistryObject<Item> SUPPORT_CHIP = ITEMS.register("support_chip", () -> new ColorChip());
     {
         // Register the setup method for modloading
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
