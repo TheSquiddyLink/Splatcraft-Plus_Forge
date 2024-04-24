@@ -77,19 +77,19 @@ public class SplatcraftPlus
     public static final RegistryObject<SplatlingItem> HERO_SPLATLING = ITEMS.register("hero_splatling", () -> new HeroSplatling());
     
     // Palettes
-    public static final RegistryObject<Item> EMPTY_PALETTE = ITEMS.register("empty_palette", () -> new EmptyPalette());
-    public static final RegistryObject<EmptyPalette> BIG_MAN_PALETTE = ITEMS.register("big_man_palette",() -> new EmptyPalette());
-    public static final RegistryObject<EmptyPalette> PEARL_PALETTE = ITEMS.register("pearl_palette",() -> new EmptyPalette());
-    public static final RegistryObject<EmptyPalette> AGENT_4_PALETTE = ITEMS.register("agent_4_palette",() -> new EmptyPalette());
-    public static final RegistryObject<EmptyPalette> CALLIE_PALETTE = ITEMS.register("callie_palette",() -> new EmptyPalette());
-    public static final RegistryObject<EmptyPalette> MARINA_PALETTE = ITEMS.register("marina_palette",() -> new EmptyPalette());
-    public static final RegistryObject<EmptyPalette> MARIE_PALETTE = ITEMS.register("marie_palette",() -> new EmptyPalette());
-    public static final RegistryObject<EmptyPalette> SHIVER_PALETTE = ITEMS.register("shiver_palette",() -> new EmptyPalette());
-    public static final RegistryObject<EmptyPalette> FRY_PALETTE = ITEMS.register("fry_palette",() -> new EmptyPalette());
-    public static final RegistryObject<EmptyPalette> MURCH_PALETTE = ITEMS.register("murch_palette",() -> new EmptyPalette());
-    public static final RegistryObject<EmptyPalette> SHELDOM_PALETTE = ITEMS.register("sheldon_palette",() -> new EmptyPalette());
-    public static final RegistryObject<EmptyPalette> OCTAVIO_PALETTE = ITEMS.register("octavio_palette",() -> new EmptyPalette());
-    public static final RegistryObject<EmptyPalette> EIGHT_PALETTE = ITEMS.register("eight_palette",() -> new EmptyPalette());
+    public static final RegistryObject<Item> EMPTY_PALETTE = ITEMS.register("empty_palette", () -> new EmptyPalette(null));
+    public static final RegistryObject<EmptyPalette> BIG_MAN_PALETTE = ITEMS.register("big_man_palette",() -> new EmptyPalette(null));
+    public static final RegistryObject<EmptyPalette> PEARL_PALETTE = ITEMS.register("pearl_palette",() -> new EmptyPalette(null));
+    public static final RegistryObject<EmptyPalette> AGENT_4_PALETTE = ITEMS.register("agent_4_palette",() -> new EmptyPalette(null));
+    public static final RegistryObject<EmptyPalette> CALLIE_PALETTE = ITEMS.register("callie_palette",() -> new EmptyPalette(null));
+    public static final RegistryObject<EmptyPalette> MARINA_PALETTE = ITEMS.register("marina_palette",() -> new EmptyPalette("unused"));
+    public static final RegistryObject<EmptyPalette> MARIE_PALETTE = ITEMS.register("marie_palette",() -> new EmptyPalette(null));
+    public static final RegistryObject<EmptyPalette> SHIVER_PALETTE = ITEMS.register("shiver_palette",() -> new EmptyPalette("unused"));
+    public static final RegistryObject<EmptyPalette> FRY_PALETTE = ITEMS.register("fry_palette",() -> new EmptyPalette("unused"));
+    public static final RegistryObject<EmptyPalette> MURCH_PALETTE = ITEMS.register("murch_palette",() -> new EmptyPalette(null));
+    public static final RegistryObject<EmptyPalette> SHELDOM_PALETTE = ITEMS.register("sheldon_palette",() -> new EmptyPalette(null));
+    public static final RegistryObject<EmptyPalette> OCTAVIO_PALETTE = ITEMS.register("octavio_palette",() -> new EmptyPalette(null));
+    public static final RegistryObject<EmptyPalette> EIGHT_PALETTE = ITEMS.register("eight_palette",() -> new EmptyPalette(null));
 
     // Chips
     public static final RegistryObject<Item> POWER_CHIP = ITEMS.register("power_chip", () -> new ColorChip());
