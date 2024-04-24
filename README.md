@@ -101,7 +101,7 @@ Weapons inspried by missing weapons from SplatCraft
 [X] Pearl\
 [ ] Marina *\
 [X] Agent 4\
-[ ] Callie\
+[X] Callie\
 [ ] Marie \
 [ ] Shiver *\
 [ ] Frye *\

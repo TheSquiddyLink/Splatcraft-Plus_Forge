@@ -1,0 +1,10 @@
+{
+    "type":"crafting_shapeless",
+    "ingredients":[
+        {"item":"splatcraftplus:power_chip"},
+        {"item":"splatcraftplus:power_chip"},
+        {"item":"splatcraftplus:lucky_chip"},
+        {"item":"splatcraftplus:empty_palette"}
+    ],
+    "result":{"item":"splatcraftplus:big_man_palette"}
+}

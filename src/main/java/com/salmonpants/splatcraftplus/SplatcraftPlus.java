@@ -81,6 +81,7 @@ public class SplatcraftPlus
     public static final RegistryObject<EmptyPalette> BIG_MAN_PALETTE = ITEMS.register("big_man_palette",() -> new EmptyPalette());
     public static final RegistryObject<EmptyPalette> PEARL_PALETTE = ITEMS.register("pearl_palette",() -> new EmptyPalette());
     public static final RegistryObject<EmptyPalette> AGENT_4_PALETTE = ITEMS.register("agent_4_palette",() -> new EmptyPalette());
+    public static final RegistryObject<EmptyPalette> CALLIE_PALETTE = ITEMS.register("callie_palette",() -> new EmptyPalette());
 
     // Chips
     public static final RegistryObject<Item> POWER_CHIP = ITEMS.register("power_chip", () -> new ColorChip());
