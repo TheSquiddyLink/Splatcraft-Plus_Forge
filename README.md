@@ -63,17 +63,17 @@ Weapons inspried by missing weapons from SplatCraft
 ### Miscellaneous
 [ ] Add lang for blueprint message\
 [ ] Add lang for advancements
-## Recipies
+## Recipes
 ### Side Order
-[ ] Add Ordershot Recipie
-[ ] Change Ordershot Recipie
-[ ] Add Order Blaster Recipie
-[ ] Change Order Blaster Recipie
-[ ] Add Order Brush Recipie
-[ ] Change Order Brush Recipie
-[ ] Add Order Dualies Recipie
-[ ] Change Order Dualies Recipie
-[ ] Add Order Slosher Recipie
-[ ] Change Order Slosher Recipie
-[ ] Add Octoshot Recipie
-[ ] Change Octoshot Recipie
+[ ] Add Ordershot Recipe 
+[ ] Change Ordershot Recipe 
+[ ] Add Order Blaster Recipe 
+[ ] Change Order Blaster Recipe 
+[ ] Add Order Brush Recipe 
+[ ] Change Order Brush Recipe 
+[ ] Add Order Dualies Recipe 
+[ ] Change Order Dualies Recipe 
+[ ] Add Order Slosher Recipe 
+[ ] Change Order Slosher Recipe 
+[ ] Add Octoshot Recipe 
+[ ] Change Octoshot Recipe 
