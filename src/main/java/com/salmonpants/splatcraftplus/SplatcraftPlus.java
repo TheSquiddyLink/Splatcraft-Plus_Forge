@@ -46,7 +46,8 @@ public class SplatcraftPlus
     public static final RegistryObject<Item> ORDER_BLUEPRINT = ITEMS.register("order_blueprint", () -> new OrderBlueprint());
     public static final RegistryObject<ShooterItem> OCTOSHOT = ITEMS.register("octoshot", () -> new OctoShot());
     public static final RegistryObject<ShooterItem> ORDERSHOT = ITEMS.register("ordershot", () -> new Ordershot());
-    public static final RegistryObject<DualieItem> SPLATTERSHOT = ITEMS.register("order_dualie", () -> new OrderDualie());
+    public static final RegistryObject<DualieItem> ORDER_DUALIES = ITEMS.register("order_dualie", () -> new OrderDualie());
+    public static final RegistryObject<BlasterItem> ORDER_BLASTER = ITEMS.register("order_blaster", () -> new OrderBlaster());
     {
         // Register the setup method for modloading
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
