@@ -20,7 +20,8 @@ public class OrderBlueprint extends Item {
     private static final String PATH = "splatcraftplus:unlocks/order/";
     private static final String[] ADVANCMENTS = {
         "ordershot",
-        "order_dualie"
+        "order_dualie",
+        "order_blaster"
     };
     public OrderBlueprint() {
         super(new Item.Properties().tab(CreativeModeTab.TAB_MISC));
