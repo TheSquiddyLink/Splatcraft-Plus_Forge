@@ -1,12 +1,17 @@
 package com.salmonpants.splatcraftplus.items;
 
+import static com.salmonpants.splatcraftplus.SplatcraftPlus.GENERAL;
+
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 
 import java.util.ArrayList;
 import java.util.Random;
 
+import org.jetbrains.annotations.NotNull;
+
 import net.minecraft.advancements.Advancement;
+import net.minecraft.core.NonNullList;
 import net.minecraft.network.chat.TranslatableComponent;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.server.level.ServerPlayer;
@@ -57,5 +62,13 @@ public class Blueprint extends Item {
         }
         // Return PASS to allow the default behavior (e.g., placing a block if applicable)
         return InteractionResultHolder.pass(player.getItemInHand(hand));
+    }
+    @Override
+    public void fillItemCategory(@NotNull CreativeModeTab group, @NotNull NonNullList<ItemStack> items)
+    {
+        if(group.equals(GENERAL))
+        {
+            items.add(new ItemStack(this));
+        }
     }
 }

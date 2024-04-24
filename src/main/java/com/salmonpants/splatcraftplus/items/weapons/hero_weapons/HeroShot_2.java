@@ -1,6 +1,6 @@
 package com.salmonpants.splatcraftplus.items.weapons.hero_weapons;
 
-import static com.salmonpants.splatcraftplus.SplatcraftPlus.TAB;
+import static com.salmonpants.splatcraftplus.SplatcraftPlus.WEAPONS;
 
 import org.jetbrains.annotations.NotNull;
 
@@ -16,7 +16,7 @@ public class HeroShot_2 extends ShooterItem{
     @Override
     public void fillItemCategory(@NotNull CreativeModeTab group, @NotNull NonNullList<ItemStack> items)
     {
-        if(group.equals(TAB))
+        if(group.equals(WEAPONS))
         {
             items.add(new ItemStack(this));
         }

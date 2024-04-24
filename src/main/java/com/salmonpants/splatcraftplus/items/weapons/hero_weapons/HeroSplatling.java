@@ -7,7 +7,7 @@ import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
 import net.splatcraft.forge.items.weapons.SplatlingItem;
 
-import static com.salmonpants.splatcraftplus.SplatcraftPlus.TAB;
+import static com.salmonpants.splatcraftplus.SplatcraftPlus.WEAPONS;
 public class HeroSplatling extends SplatlingItem{
     public HeroSplatling(){
         super("heavy_splatling");
@@ -15,7 +15,7 @@ public class HeroSplatling extends SplatlingItem{
     @Override
     public void fillItemCategory(@NotNull CreativeModeTab group, @NotNull NonNullList<ItemStack> items)
     {
-        if(group.equals(TAB))
+        if(group.equals(WEAPONS))
         {
             items.add(new ItemStack(this));
         }

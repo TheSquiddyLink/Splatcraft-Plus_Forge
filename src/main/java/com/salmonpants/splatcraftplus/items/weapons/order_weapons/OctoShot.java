@@ -6,7 +6,7 @@ import net.minecraft.core.NonNullList;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
 import net.splatcraft.forge.items.weapons.ShooterItem;
-import static com.salmonpants.splatcraftplus.SplatcraftPlus.TAB;
+import static com.salmonpants.splatcraftplus.SplatcraftPlus.WEAPONS;
 public class OctoShot extends ShooterItem{
     public OctoShot(){
         super("splattershot");
@@ -14,7 +14,7 @@ public class OctoShot extends ShooterItem{
     @Override
     public void fillItemCategory(@NotNull CreativeModeTab group, @NotNull NonNullList<ItemStack> items)
     {
-        if(group.equals(TAB))
+        if(group.equals(WEAPONS))
         {
             items.add(new ItemStack(this));
         }

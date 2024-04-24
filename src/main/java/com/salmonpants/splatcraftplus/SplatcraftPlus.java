@@ -38,7 +38,13 @@ public class SplatcraftPlus
 
     public static final String MODID = "splatcraftplus";
 
-    public static final CreativeModeTab TAB = new CreativeModeTab("splatcraft_plus") {
+    public static final CreativeModeTab WEAPONS = new CreativeModeTab("splatcraft_plus") {
+        @Override
+        public ItemStack makeIcon() {
+            return new ItemStack(ORDER_BLUEPRINT.get());
+        }
+    };
+    public static final CreativeModeTab GENERAL = new CreativeModeTab("splatcraft_plus.general") {
         @Override
         public ItemStack makeIcon() {
             return new ItemStack(ORDER_BLUEPRINT.get());
