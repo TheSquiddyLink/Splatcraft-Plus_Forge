@@ -1,0 +1,20 @@
+{
+    "display": {
+      "icon": {
+        "item": "splatcraftplus:order_brush"
+      },
+      "title": "Order Brush",
+      "description": "Get the Order Brush Recipe",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "splatcraftplus:unlocks/order/root",
+    "criteria": {
+      "default": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }
+  

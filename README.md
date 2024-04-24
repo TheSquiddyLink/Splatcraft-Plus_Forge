@@ -17,7 +17,7 @@ Weapons inspired by the Splatoon 3 Side Order DLC
 [X] Order Slosher\
 [ ] Order Splatling\
 [X] Order Blaster\
-[ ] Order Brush\
+[X] Order Brush*\
 [ ] Order Roller\
 [ ] Order Charger
 
@@ -56,6 +56,7 @@ Weapons inspried by missing weapons from SplatCraft
 
 ### Order Weapons
 [ ] Fix "skin color" for order weapons\
-[ ] Fix ink color splatling and blaster
+[ ] Fix ink color splatling and blaster\
+[ ] Fix Order brush unfloded assets
 ### Splatcraft+
 [ ] Fix painbrush ink color

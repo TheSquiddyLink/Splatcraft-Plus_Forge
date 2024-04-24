@@ -22,7 +22,8 @@ public class OrderBlueprint extends Item {
         "ordershot",
         "order_dualie",
         "order_blaster",
-        "order_slosher"
+        "order_slosher",
+        "order_brush"
     };
     public OrderBlueprint() {
         super(new Item.Properties().tab(CreativeModeTab.TAB_MISC));
