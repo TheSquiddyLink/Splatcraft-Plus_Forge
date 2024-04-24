@@ -63,3 +63,17 @@ Weapons inspried by missing weapons from SplatCraft
 ### Miscellaneous
 [ ] Add lang for blueprint message\
 [ ] Add lang for advancements
+## Recipies
+### Side Order
+[ ] Add Ordershot Recipie
+[ ] Change Ordershot Recipie
+[ ] Add Order Blaster Recipie
+[ ] Change Order Blaster Recipie
+[ ] Add Order Brush Recipie
+[ ] Change Order Brush Recipie
+[ ] Add Order Dualies Recipie
+[ ] Change Order Dualies Recipie
+[ ] Add Order Slosher Recipie
+[ ] Change Order Slosher Recipie
+[ ] Add Octoshot Recipie
+[ ] Change Octoshot Recipie
