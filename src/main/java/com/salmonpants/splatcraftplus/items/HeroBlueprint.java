@@ -8,7 +8,8 @@ public class HeroBlueprint extends Blueprint{
          "heroshot_3",
          "hero_charger",
          "hero_blaster",
-         "hero_slosher"
+         "hero_slosher",
+         "herobrush"
          );
     }
 }

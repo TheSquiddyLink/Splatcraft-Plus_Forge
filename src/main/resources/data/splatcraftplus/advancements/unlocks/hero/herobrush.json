@@ -1,0 +1,20 @@
+{
+    "display": {
+      "icon": {
+        "item": "splatcraftplus:herobrush"
+      },
+      "title": "Hero Brush",
+      "description": "Get the Hero Brush Recipe",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "splatcraftplus:unlocks/hero/root",
+    "criteria": {
+      "default": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }
+  
