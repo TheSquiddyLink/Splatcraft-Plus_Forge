@@ -7,10 +7,10 @@ import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
 import net.splatcraft.forge.items.weapons.BlasterItem;
 
-public class Blaster extends BlasterItem{
+public class LunaBlaster extends BlasterItem{
     private CreativeModeTab group;
-    public Blaster(CreativeModeTab group){
-        super("splattershot");
+    public LunaBlaster(CreativeModeTab group){
+        super("luna_blaster");
         this.group = group;
 
     }
