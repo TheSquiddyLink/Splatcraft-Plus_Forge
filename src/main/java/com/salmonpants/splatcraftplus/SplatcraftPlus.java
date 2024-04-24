@@ -2,6 +2,7 @@ package com.salmonpants.splatcraftplus;
 
 import com.mojang.logging.LogUtils;
 import com.salmonpants.splatcraftplus.items.OrderBlueprint;
+import com.salmonpants.splatcraftplus.items.weapons.hero_weapons.*;
 import com.salmonpants.splatcraftplus.items.weapons.order_weapons.*;
 
 import net.minecraft.world.item.CreativeModeTab;
@@ -46,6 +47,7 @@ public class SplatcraftPlus
 
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, MODID);
     
+    // Order Weapons
     public static final RegistryObject<Item> ORDER_BLUEPRINT = ITEMS.register("order_blueprint", () -> new OrderBlueprint());
     public static final RegistryObject<ShooterItem> OCTOSHOT = ITEMS.register("octoshot", () -> new OctoShot());
     public static final RegistryObject<ShooterItem> ORDERSHOT = ITEMS.register("ordershot", () -> new Ordershot());
@@ -54,6 +56,8 @@ public class SplatcraftPlus
     public static final RegistryObject<SlosherItem> ORDER_SLOSHER = ITEMS.register("order_slosher", () -> new OrderSlosher());
     public static final RegistryObject<RollerItem> ORDER_BRUSH = ITEMS.register("order_brush", () -> new OrderBrush());
 
+    // Hero Weapons
+    public static final RegistryObject<ShooterItem> HEROSHOT_1 = ITEMS.register("heroshot_1", () -> new HeroShot());
     {
         // Register the setup method for modloading
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
