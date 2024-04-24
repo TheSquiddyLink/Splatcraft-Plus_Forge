@@ -9,7 +9,7 @@ public class Slosher extends SlosherItem{
     private static final RegistryObject<SlosherItem> SLOSHER = SplatcraftItems.slosher;
     private static final SlosherItem item = SLOSHER.get();
     private static final WeaponSettings settings = item.settings;
-    Slosher() {
+    public Slosher() {
         super(settings);
     }
 }
