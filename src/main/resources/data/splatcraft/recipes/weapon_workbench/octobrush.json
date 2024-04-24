@@ -75,7 +75,7 @@
         ]
       },
       {
-        "name": "weaponType.octo",
+        "name": "weaponType.order",
         "advancement": "splatcraftplus:unlocks/order/order_brush",
         "result": {
           "item": "splatcraftplus:order_brush",
