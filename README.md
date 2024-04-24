@@ -75,5 +75,5 @@ Weapons inspried by missing weapons from SplatCraft
 [ ] Change Order Dualies Recipe 
 [ ] Add Order Slosher Recipe 
 [ ] Change Order Slosher Recipe 
-[ ] Add Octoshot Recipe 
+[X] Add Octoshot Recipe 
 [ ] Change Octoshot Recipe 
