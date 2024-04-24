@@ -18,7 +18,7 @@ Weapons inspired by the Splatoon 3 Side Order DLC
 [ ] Order Splatling\
 [X] Order Blaster\
 [X] Order Brush\
-[ ] Order Roller\
+[ ] Order Roller*\
 [ ] Order Charger
 
 #### Hero
