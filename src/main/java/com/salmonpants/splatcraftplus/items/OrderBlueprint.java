@@ -21,7 +21,8 @@ public class OrderBlueprint extends Item {
     private static final String[] ADVANCMENTS = {
         "ordershot",
         "order_dualie",
-        "order_blaster"
+        "order_blaster",
+        "order_slosher"
     };
     public OrderBlueprint() {
         super(new Item.Properties().tab(CreativeModeTab.TAB_MISC));
