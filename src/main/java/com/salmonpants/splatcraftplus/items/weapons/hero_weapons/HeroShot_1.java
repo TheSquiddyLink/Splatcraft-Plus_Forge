@@ -7,8 +7,8 @@ import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
 import net.splatcraft.forge.items.weapons.ShooterItem;
 import static com.salmonpants.splatcraftplus.SplatcraftPlus.TAB;
-public class HeroShot extends ShooterItem{
-    public HeroShot(){
+public class HeroShot_1 extends ShooterItem{
+    public HeroShot_1(){
         super("splattershot");
     }
     @Override
