@@ -96,6 +96,28 @@
       ]
     },
     {
+      "name": "weaponType.hero2",
+      "advancement": "splatcraftplus:unlocks/hero/heroshot_2",
+      "result": {
+        "item": "splatcraftplus:heroshot_2",
+        "count": 1
+      },
+      "ingredients": [
+        {
+          "item": "splatcraft:sardinium",
+          "count": 5
+        },
+        {
+          "item": "splatcraft:power_egg",
+          "count": 14
+        },
+        {
+          "item": "minecraft:ink_sac",
+          "count": 4
+        }
+      ]
+    },
+    {
       "name": "weaponType.order",
       "advancement": "splatcraftplus:unlocks/order/ordershot",
       "result": {

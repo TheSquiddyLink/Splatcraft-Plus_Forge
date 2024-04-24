@@ -81,7 +81,7 @@ Weapons inspried by missing weapons from SplatCraft
 #### Hero Mode
 [X] Hero Shot MK I Recipe\
 [ ] Change Hero Shot MK I Recipe\
-[ ] Hero Shot MK II Recipe\
+[X] Hero Shot MK II Recipe\
 [ ] Change Hero Shot MK II Recipe\
 [ ] Hero Shot MK III Recipe\
 [ ] Change Hero Shot MK III Recipe\
