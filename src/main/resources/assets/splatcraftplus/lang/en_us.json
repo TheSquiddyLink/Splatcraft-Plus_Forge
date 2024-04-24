@@ -15,5 +15,11 @@
     "item.splatcraftplus.hero_slosher": "Hero Slosher",
     "item.splatcraftplus.herobrush": "Hero Brush",
     "item.splatcraftplus.hero_splatling": "Hero Splatling",
+    "item.splatcraftplus.power_chip": "Power Chip",
+    "item.splatcraftplus.lucky_chip": "Lucky Chip",
+    "item.splatcraftplus.drone_chip": "Drone Chip",
+    "item.splatcraftplus.mobility_chip": "Mobility Chip",
+    "item.splatcraftplus.range_chip": "Range Chip",
+    "item.splatcraftplus.support_chip": "Support Chip",
     "itemGroup.splatcraft_plus": "Splatcraft Plus Weapons"
 }
