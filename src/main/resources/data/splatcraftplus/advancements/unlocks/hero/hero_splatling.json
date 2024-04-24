@@ -1,0 +1,20 @@
+{
+    "display": {
+      "icon": {
+        "item": "splatcraftplus:hero_splatling"
+      },
+      "title": "Hero Splatling",
+      "description": "Get the Hero Splatling Recipe",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "splatcraftplus:unlocks/hero/root",
+    "criteria": {
+      "default": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }
+  
