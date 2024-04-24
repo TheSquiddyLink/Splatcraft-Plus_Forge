@@ -1,0 +1,10 @@
+{
+    "type":"crafting_shapeless",
+    "ingredients":[
+        {"item":"splatcraftplus:mobility_chip"},
+        {"item":"splatcraftplus:mobility_chip"},
+        {"item":"splatcraftplus:range_chip"},
+        {"item":"splatcraftplus:empty_palette"}
+    ],
+    "result":{"item":"splatcraftplus:shiver_palette"}
+}
