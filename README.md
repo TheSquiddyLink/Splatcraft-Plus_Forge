@@ -67,7 +67,7 @@ Weapons inspried by missing weapons from SplatCraft
 ### Side Order
 [X] Add Ordershot Recipe 
 [ ] Change Ordershot Recipe 
-[ ] Add Order Blaster Recipe 
+[X] Add Order Blaster Recipe 
 [ ] Change Order Blaster Recipe 
 [ ] Add Order Brush Recipe 
 [ ] Change Order Brush Recipe 
