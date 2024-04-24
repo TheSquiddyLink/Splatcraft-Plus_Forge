@@ -81,6 +81,7 @@ public class SplatcraftPlus
     public static final RegistryObject<Item> RANGE_CHIP = ITEMS.register("range_chip", () -> new ColorChip());
     public static final RegistryObject<Item> MOBILITY_CHIP = ITEMS.register("mobility_chip", () -> new ColorChip());
     public static final RegistryObject<Item> LUCKY_CHIP = ITEMS.register("lucky_chip", () -> new ColorChip());
+    public static final RegistryObject<Item> DRONE_CHIP = ITEMS.register("drone_chip", () -> new ColorChip());
     {
         // Register the setup method for modloading
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
