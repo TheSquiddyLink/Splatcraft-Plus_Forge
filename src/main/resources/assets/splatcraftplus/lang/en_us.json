@@ -1,11 +1,12 @@
 {
-    "item.splatcraftplus.octoshot": "Octoshot",
     "item.splatcraftplus.order_blueprint": "Order Blueprint",
+    "item.splatcraftplus.octoshot": "Octoshot",
     "item.splatcraftplus.ordershot": "Ordershot",
     "item.splatcraftplus.order_dualie": "Order Dualie",
     "item.splatcraftplus.order_blaster": "Order Blaster",
     "item.splatcraftplus.order_slosher": "Order Slosher",
     "item.splatcraftplus.order_brush": "Order Brush",
+
     "item.splatcraftplus.hero_blueprint": "Hero Blueprint",
     "item.splatcraftplus.heroshot_1": "Hero Shot MK I",
     "item.splatcraftplus.heroshot_2": "Hero Shot MK II",
@@ -15,6 +16,7 @@
     "item.splatcraftplus.hero_slosher": "Hero Slosher",
     "item.splatcraftplus.herobrush": "Hero Brush",
     "item.splatcraftplus.hero_splatling": "Hero Splatling",
+
     "item.splatcraftplus.power_chip": "Power Chip",
     "item.splatcraftplus.lucky_chip": "Lucky Chip",
     "item.splatcraftplus.drone_chip": "Drone Chip",
@@ -24,5 +26,16 @@
     "item.splatcraftplus.empty_palette": "Empty Palette",
     "item.splatcraftplus.big_man_palette": "Big Man's Palette",
     "item.splatcraftplus.pearl_palette": "Pearl's Palette",
+    "item.splatcraftplus.agent_4_palette": "Agent 4's Palette",
+    "item.splatcraftplus.callie_palette": "Callie's Palette",
+    "item.splatcraftplus.marina_palette": "Marina's Palette",
+    "item.splatcraftplus.marie_palette": "Marie's Palette",
+    "item.splatcraftplus.shiver_palette": "Shiver's Palette",
+    "item.splatcraftplus.fry_palette": "Fry's Palette",
+    "item.splatcraftplus.murch_palette": "Murch's Palette",
+    "item.splatcraftplus.sheldon_palette": "Sheldon's Palette",
+    "item.splatcraftplus.octavio_palette": "Octavio's Palette",
+    "item.splatcraftplus.eight_palette": "Eight's Palette",
+
     "itemGroup.splatcraft_plus": "Splatcraft Plus Weapons"
 }
