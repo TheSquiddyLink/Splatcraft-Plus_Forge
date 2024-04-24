@@ -1,23 +1,11 @@
 package com.salmonpants.splatcraftplus.items.weapons.order_weapons;
 
-
-import org.jetbrains.annotations.NotNull;
 import static com.salmonpants.splatcraftplus.SplatcraftPlus.WEAPONS;
-import net.minecraft.core.NonNullList;
-import net.minecraft.world.item.CreativeModeTab;
-import net.minecraft.world.item.ItemStack;
-import net.splatcraft.forge.items.weapons.ShooterItem;
 
-public class Ordershot extends ShooterItem {
+import com.salmonpants.splatcraftplus.items.weapons.template_weapon.Shooter;
+
+public class Ordershot extends Shooter {
     public Ordershot(){
-        super("splattershot");
-    }
-    @Override
-    public void fillItemCategory(@NotNull CreativeModeTab group, @NotNull NonNullList<ItemStack> items)
-    {
-        if(group.equals(WEAPONS))
-        {
-            items.add(new ItemStack(this));
-        }
+        super(WEAPONS);
     }
 }
