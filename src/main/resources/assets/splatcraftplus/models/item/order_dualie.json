@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [32, 32],
 	"textures": {
-		"0": "splatcraftplus:items/order_dualie (1)",
-		"particle": "splatcraftplus:items/order_dualie (1)"
+		"0": "splatcraftplus:items/order_dualie",
+		"particle": "splatcraftplus:items/order_dualie"
 	},
 	"elements": [
 		{
