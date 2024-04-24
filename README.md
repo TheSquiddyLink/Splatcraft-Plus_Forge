@@ -62,3 +62,4 @@ Weapons inspried by missing weapons from SplatCraft
 [ ] Fix painbrush ink color
 ### Miscellaneous
 [ ] Add lang for blueprint message
+[ ] Add lang for advancements
