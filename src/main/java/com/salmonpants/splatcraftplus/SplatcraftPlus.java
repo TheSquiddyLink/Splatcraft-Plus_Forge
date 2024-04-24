@@ -44,7 +44,8 @@ public class SplatcraftPlus
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, MODID);
     
     public static final RegistryObject<Item> ORDER_BLUEPRINT = ITEMS.register("order_blueprint", () -> new OrderBlueprint());
-    public static final RegistryObject<ShooterItem> octoshot = ITEMS.register("octoshot", () -> new OctoShot());
+    public static final RegistryObject<ShooterItem> OCTOSHOT = ITEMS.register("octoshot", () -> new OctoShot());
+    public static final RegistryObject<ShooterItem> ORDERSHOT = ITEMS.register("ordershot", () -> new Ordershot());
 
     {
         // Register the setup method for modloading
