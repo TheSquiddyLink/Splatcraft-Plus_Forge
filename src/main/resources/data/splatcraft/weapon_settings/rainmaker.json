@@ -1,0 +1,28 @@
+{
+	"type": "splatcraft:slosher",
+	"projectile": 
+	{
+		"size": 3,
+		"speed": 1,
+
+		"ink_coverage_on_impact": 4,
+		"ink_trail_coverage": 1,
+		"ink_trail_tick_interval": 4,
+
+		"count": 1,
+		"angle_between_projectiles": 0,
+
+		"direct_damage": 11,
+		"splash_damage": 7
+	},
+	"shot":
+	{
+		"pitch_compensation": -15,
+		"startup_ticks": 5,
+		"endlag_ticks": 40,
+		"ink_consumption": 11.7,
+		"ink_recovery_cooldown": 23
+	},
+	"full_damage_to_mobs": false,
+	"mobility": 0.3
+}

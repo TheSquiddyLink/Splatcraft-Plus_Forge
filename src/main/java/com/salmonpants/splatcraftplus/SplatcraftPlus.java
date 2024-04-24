@@ -76,6 +76,7 @@ public class SplatcraftPlus
     public static final RegistryObject<RollerItem> HERO_BRUSH = ITEMS.register("herobrush", () -> new HeroBrush());
     public static final RegistryObject<SplatlingItem> HERO_SPLATLING = ITEMS.register("hero_splatling", () -> new HeroSplatling());
     
+    public static final RegistryObject<SlosherItem> RAINMAKER = ITEMS.register("rainmaker",() -> new Rainmaker());
     // Palettes
     public static final RegistryObject<Item> EMPTY_PALETTE = ITEMS.register("empty_palette", () -> new EmptyPalette(null));
     public static final RegistryObject<EmptyPalette> BIG_MAN_PALETTE = ITEMS.register("big_man_palette",() -> new EmptyPalette(null));
