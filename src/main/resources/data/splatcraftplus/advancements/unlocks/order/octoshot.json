@@ -1,0 +1,32 @@
+{
+    "display": {
+      "icon": {
+        "item": "splatcraftplus:octoshot"
+      },
+      "title": "True Order",
+      "description": "Get the OctoShot Recipe",
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "splatcraftplus:unlocks/order/ordershot",
+    "criteria": {
+      "order_blaster": {
+        "trigger": "minecraft:impossible"
+      },
+      "order_brush": {
+        "trigger": "minecraft:impossible"
+      },
+      "order_dualie": {
+        "trigger": "minecraft:impossible"
+      },
+      "order_slosher": {
+        "trigger": "minecraft:impossible"
+      },
+      "ordershot": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }
+  

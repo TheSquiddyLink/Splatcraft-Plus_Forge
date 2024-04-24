@@ -3,6 +3,7 @@ package com.salmonpants.splatcraftplus.items;
 public class HeroBlueprint extends Blueprint{
     public HeroBlueprint() {
         super("splatcraftplus:unlocks/hero/",
+        null,
          "heroshot_1", 
          "heroshot_2",
          "heroshot_3",

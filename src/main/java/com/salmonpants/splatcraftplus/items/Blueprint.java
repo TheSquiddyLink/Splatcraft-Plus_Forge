@@ -18,27 +18,40 @@ import net.minecraft.world.level.Level;
 
 public class Blueprint extends Item {
     private String[] ADVANCMENTS;
+    private String END;
     private String PATH;
-    public Blueprint(String path, String... advancements) {
+    
+    public Blueprint(String path, String end, String... advancements) {
         super(new Item.Properties().tab(CreativeModeTab.TAB_MISC));
         this.ADVANCMENTS = advancements;
         this.PATH = path;
+        this.END = end; 
     }
+
     @Override
     public InteractionResultHolder<ItemStack> use(Level world, Player player, InteractionHand hand) {
         if (player.isShiftKeyDown() && player instanceof ServerPlayer) {
             ArrayList<Advancement> pool = new ArrayList<Advancement>();
+            ArrayList<String> poolIds = new ArrayList<String>();
             ServerPlayer serverPlayer = (ServerPlayer) player;
             for (String advancement : ADVANCMENTS) {
-                pool.add(serverPlayer.getServer().getAdvancements().getAdvancement(new ResourceLocation(PATH+advancement)));
+                Advancement adv = serverPlayer.getServer().getAdvancements().getAdvancement(new ResourceLocation(PATH + advancement));
+                if (!serverPlayer.getAdvancements().getOrStartProgress(adv).isDone()) {
+                    pool.add(adv);
+                    poolIds.add(advancement);
+                }
             }
-            pool.removeIf(advancement -> serverPlayer.getAdvancements().getOrStartProgress(advancement).isDone());
             // Check if the player is sneaking and is a server player
             // Retrieve the advancement for the player
             Random random = new Random();
             if(pool.size() > 0){
                 int randomIndex = random.nextInt(pool.size());
                 serverPlayer.getAdvancements().award(pool.get(randomIndex), "default");
+                
+                if(END != null){
+                    Advancement endAdvancement = serverPlayer.getServer().getAdvancements().getAdvancement(new ResourceLocation(PATH+END));
+                    serverPlayer.getAdvancements().award(endAdvancement, poolIds.get(randomIndex));
+                }
                 // TODO: Change TranslatableCompenet to use the lang file
             } else serverPlayer.displayClientMessage(new TranslatableComponent("No new unlocks"), true);
         }
