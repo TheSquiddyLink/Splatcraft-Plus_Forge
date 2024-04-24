@@ -2,6 +2,7 @@ package com.salmonpants.splatcraftplus;
 
 import com.mojang.logging.LogUtils;
 import com.salmonpants.splatcraftplus.items.ColorChip;
+import com.salmonpants.splatcraftplus.items.EmptyPalette;
 import com.salmonpants.splatcraftplus.items.HeroBlueprint;
 import com.salmonpants.splatcraftplus.items.OrderBlueprint;
 import com.salmonpants.splatcraftplus.items.weapons.hero_weapons.*;
@@ -75,7 +76,10 @@ public class SplatcraftPlus
     public static final RegistryObject<RollerItem> HERO_BRUSH = ITEMS.register("herobrush", () -> new HeroBrush());
     public static final RegistryObject<SplatlingItem> HERO_SPLATLING = ITEMS.register("hero_splatling", () -> new HeroSplatling());
     
-    // Palette
+    // Palettes
+    public static final RegistryObject<Item> EMPTY_PALETTE = ITEMS.register("empty_palette", () -> new EmptyPalette());
+
+    // Chips
     public static final RegistryObject<Item> POWER_CHIP = ITEMS.register("power_chip", () -> new ColorChip());
     public static final RegistryObject<Item> SUPPORT_CHIP = ITEMS.register("support_chip", () -> new ColorChip());
     public static final RegistryObject<Item> RANGE_CHIP = ITEMS.register("range_chip", () -> new ColorChip());
