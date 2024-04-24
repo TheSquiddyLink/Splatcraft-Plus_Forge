@@ -11,7 +11,7 @@ import net.splatcraft.forge.items.weapons.SlosherItem;
 
 public class HeroSlosher extends SlosherItem{
     public HeroSlosher(){
-        super("splattershot");
+        super("slosher");
     }
     @Override
     public void fillItemCategory(@NotNull CreativeModeTab group, @NotNull NonNullList<ItemStack> items)
