@@ -79,7 +79,7 @@ Weapons inspried by missing weapons from SplatCraft
 [ ] Change Octoshot Recipe 
 
 #### Hero Mode
-[ ] Hero Shot MK I Recipe\
+[X] Hero Shot MK I Recipe\
 [ ] Change Hero Shot MK I Recipe\
 [ ] Hero Shot MK II Recipe\
 [ ] Change Hero Shot MK II Recipe\
