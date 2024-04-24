@@ -3,8 +3,8 @@
       "icon": {
         "item": "splatcraftplus:heroshot_2"
       },
-      "title": "Heroshot MKII",
-      "description": "Get the Heroshot MKII Recipe",
+      "title": "Heroshot MK II",
+      "description": "Get the Heroshot MK II Recipe",
       "frame": "task",
       "show_toast": true,
       "announce_to_chat": true,
