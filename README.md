@@ -99,7 +99,7 @@ Weapons inspried by missing weapons from SplatCraft
 [ ] Change hero Splatling Recipe
 #### Palettes
 [X] Pearl\
-[ ] Marina *\
+[X] Marina *\
 [X] Agent 4\
 [X] Callie\
 [ ] Marie \
