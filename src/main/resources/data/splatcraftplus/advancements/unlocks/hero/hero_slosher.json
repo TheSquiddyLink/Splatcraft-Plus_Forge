@@ -1,0 +1,20 @@
+{
+    "display": {
+      "icon": {
+        "item": "splatcraftplus:hero_slosher"
+      },
+      "title": "Hero Slosher",
+      "description": "Get the Hero Slosher Recipe",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "splatcraftplus:unlocks/hero/root",
+    "criteria": {
+      "default": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }
+  
