@@ -65,15 +65,35 @@ Weapons inspried by missing weapons from SplatCraft
 [ ] Add lang for advancements
 ## Recipes
 ### Side Order
-[X] Add Ordershot Recipe 
-[ ] Change Ordershot Recipe 
-[X] Add Order Blaster Recipe 
-[ ] Change Order Blaster Recipe 
-[X] Add Order Brush Recipe 
-[ ] Change Order Brush Recipe 
-[X] Add Order Dualies Recipe 
-[ ] Change Order Dualies Recipe 
-[X] Add Order Slosher Recipe 
-[ ] Change Order Slosher Recipe 
-[X] Add Octoshot Recipe 
+[X] Add Ordershot Recipe\
+[ ] Change Ordershot Recipe\
+[X] Add Order Blaster Recipe\
+[ ] Change Order Blaster Recipe\
+[X] Add Order Brush Recipe\
+[ ] Change Order Brush Recipe\
+[X] Add Order Dualies Recipe\
+[ ] Change Order Dualies Recipe\
+[X] Add Order Slosher Recipe\
+[ ] Change Order Slosher Recipe\
+[X] Add Octoshot Recipe\
 [ ] Change Octoshot Recipe 
+
+###
+[ ] Hero Shot MK I Recipe\
+[ ] Change Hero Shot MK I Recipe\
+[ ] Hero Shot MK II Recipe\
+[ ] Change Hero Shot MK II Recipe\
+[ ] Hero Shot MK III Recipe\
+[ ] Change Hero Shot MK III Recipe\
+[ ] Hero Charger Recipe\
+[ ] Change Hero Charger Recipe\
+[ ] Hero Roller* Recipe\
+[ ] Change Hero Roller Recipe\
+[ ] Hero Blaster Recipe\
+[ ] Change Hero Blaster Recipe\
+[ ] Hero Slosher Recipe\
+[ ] Change Hero Slosher Recipe\
+[ ] Hero Brush Recipe\
+[ ] Change Hero Brush Recipe\
+[ ] Hero Splatling Recipe\
+[ ] Change hero Splatling Recipe
