@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [64, 64],
 	"textures": {
-		"0": "block/texture",
-		"particle": "block/texture"
+		"0": "splatcraftplus:items/order_brush",
+		"particle": "splatcraftplus:items/order_brush"
 	},
 	"elements": [
 		{
@@ -163,8 +163,8 @@
 	],
 	"display": {
 		"thirdperson_righthand": {
-			"rotation": [-58, 0, 0],
-			"translation": [-0.5, 5, -5.75],
+			"rotation": [19, 0, 0],
+			"translation": [0, 9.5, 4.75],
 			"scale": [0.75, 0.75, 0.75]
 		},
 		"thirdperson_lefthand": {
@@ -173,12 +173,12 @@
 			"scale": [0.75, 0.75, 0.75]
 		},
 		"firstperson_righthand": {
-			"rotation": [-104, 0, -18],
-			"translation": [3.5, -1, -8.75]
+			"rotation": [-9, -4, -3],
+			"translation": [4, 8.25, -2.5]
 		},
 		"firstperson_lefthand": {
-			"rotation": [-104, 0, -18],
-			"translation": [3.5, -1, -8.75]
+			"rotation": [-11, -3, -4],
+			"translation": [2.25, 8.25, -3]
 		},
 		"ground": {
 			"rotation": [-90, 0, 90],
