@@ -48,6 +48,7 @@ public class Blueprint extends Item {
             }
             // Check if the player is sneaking and is a server player
             // Retrieve the advancement for the player
+            // TODO: Use Level Random
             Random random = new Random();
             if(pool.size() > 0){
                 int randomIndex = random.nextInt(pool.size());
