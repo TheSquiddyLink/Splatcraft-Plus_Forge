@@ -30,7 +30,7 @@ Weapons inspired by the Hero Modes of Splatoon 1,2, and 3
 [X] Hero Shot MK III (Splatoon 3)\
 [X] Hero Charger\
 [ ] Hero Roller*\
-[ ] Hero Blaster\
+[X] Hero Blaster\
 [ ] Hero Slosher\
 [ ] Hero Brush\
 [ ] Hero Splatling
@@ -45,7 +45,7 @@ Weapons inspried by missing weapons from SplatCraft
 ## Miscellaneous
 [ ] Craftable Splatfest band 
 [X] Order Blueprint
-[ ] Hero Blueprint
+[X] Hero Blueprint
 [ ] Splatcraft+ Blueprint
 ## Plans
 
@@ -60,3 +60,5 @@ Weapons inspried by missing weapons from SplatCraft
 [ ] Fix Order brush unfloded assets
 ### Splatcraft+
 [ ] Fix painbrush ink color
+### Miscellaneous
+[ ] Add lang for blueprint message

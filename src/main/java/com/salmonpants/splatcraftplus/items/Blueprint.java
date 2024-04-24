@@ -39,6 +39,7 @@ public class Blueprint extends Item {
             if(pool.size() > 0){
                 int randomIndex = random.nextInt(pool.size());
                 serverPlayer.getAdvancements().award(pool.get(randomIndex), "default");
+                // TODO: Change TranslatableCompenet to use the lang file
             } else serverPlayer.displayClientMessage(new TranslatableComponent("No new unlocks"), true);
         }
         // Return PASS to allow the default behavior (e.g., placing a block if applicable)
