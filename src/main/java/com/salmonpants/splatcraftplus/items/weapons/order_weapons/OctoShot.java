@@ -1,9 +1,10 @@
 package com.salmonpants.splatcraftplus.items.weapons.order_weapons;
 
-import com.salmonpants.splatcraftplus.items.weapons.defaultTypes.Splattershot;
+import net.splatcraft.forge.items.weapons.ShooterItem;
 
-
-public class OctoShot extends Splattershot {
-
+public class OctoShot extends ShooterItem {
+    public OctoShot() {
+        super("splattershot");
+    }
 }
 

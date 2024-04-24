@@ -1,7 +1,9 @@
 package com.salmonpants.splatcraftplus.items.weapons.order_weapons;
 
-import com.salmonpants.splatcraftplus.items.weapons.defaultTypes.Slosher;
+import net.splatcraft.forge.items.weapons.SlosherItem;
 
-public class OrderSlosher extends Slosher{
-    
+public class OrderSlosher extends SlosherItem{
+    public OrderSlosher(){
+        super("slosher");
+    }
 }

@@ -1,7 +1,9 @@
 package com.salmonpants.splatcraftplus.items.weapons.order_weapons;
 
-import com.salmonpants.splatcraftplus.items.weapons.defaultTypes.LunaBlaster;
+import net.splatcraft.forge.items.weapons.BlasterItem;
 
-public class OrderBlaster extends LunaBlaster{
-    
+public class OrderBlaster extends BlasterItem{
+    public OrderBlaster(){
+        super("luna_blaster");
+    }
 }

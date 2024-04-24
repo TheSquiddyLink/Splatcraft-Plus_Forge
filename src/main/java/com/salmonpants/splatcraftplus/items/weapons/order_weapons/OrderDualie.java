@@ -1,7 +1,9 @@
 package com.salmonpants.splatcraftplus.items.weapons.order_weapons;
 
-import com.salmonpants.splatcraftplus.items.weapons.defaultTypes.Splatdualie;
+import net.splatcraft.forge.items.weapons.DualieItem;
 
-public class OrderDualie extends Splatdualie{
-    
+public class OrderDualie extends DualieItem{
+    public OrderDualie(){
+        super("splat_dualie");
+    }
 }

@@ -1,7 +1,9 @@
 package com.salmonpants.splatcraftplus.items.weapons.order_weapons;
 
-import com.salmonpants.splatcraftplus.items.weapons.defaultTypes.OctoBrush;
+import net.splatcraft.forge.items.weapons.RollerItem;
 
-public class OrderBrush extends OctoBrush{
-    
+public class OrderBrush extends RollerItem{
+    public OrderBrush() {
+        super("octobrush");
+    }
 }
