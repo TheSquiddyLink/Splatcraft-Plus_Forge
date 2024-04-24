@@ -138,6 +138,10 @@
           {
             "item": "minecraft:bucket",
             "count": 1
+          },
+          {
+            "item": "splatcraftplus:big_man_palette",
+            "count": 1
           }
         ]
       }

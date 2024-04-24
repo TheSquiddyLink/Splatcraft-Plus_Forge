@@ -158,6 +158,10 @@
         {
           "item": "minecraft:ink_sac",
           "count": 4
+        },
+        {
+          "item": "splatcraftplus:agent_4_palette",
+          "count": 1
         }
       ]
     },

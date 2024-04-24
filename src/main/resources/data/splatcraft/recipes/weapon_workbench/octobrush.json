@@ -133,6 +133,10 @@
           {
             "item": "minecraft:iron_nugget",
             "count": 16
+          },
+          {
+            "item": "splatcraftplus:sheldon_palette",
+            "count": 1
           }
         ]
       }

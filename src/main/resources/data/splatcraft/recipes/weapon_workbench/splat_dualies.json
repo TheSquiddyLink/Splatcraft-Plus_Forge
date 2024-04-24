@@ -82,6 +82,10 @@
           {
             "item": "minecraft:gunpowder",
             "count": 1
+          },
+          {
+            "item": "splatcraftplus:pearl_palette",
+            "count": 1
           }
         ]
       }
