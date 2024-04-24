@@ -28,8 +28,8 @@ Weapons inspired by the Hero Modes of Splatoon 1,2, and 3
 [X] Hero Shot MK I (Splatoon 1)\
 [X] Hero Shot MK II (Splatoon 2)\
 [X] Hero Shot MK III (Splatoon 3)\
-[ ] Hero Charger\
-[ ] Hero Roller\
+[X] Hero Charger\
+[ ] Hero Roller*\
 [ ] Hero Blaster\
 [ ]  Hero Slosher\
 [ ] Hero Brush\
