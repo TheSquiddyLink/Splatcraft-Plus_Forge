@@ -1,4 +1,4 @@
-package com.salmonpants.splatcraftplus.items.weapons.order_weapons;
+package com.salmonpants.splatcraftplus.items.weapons.template_weapon;
 
 import org.jetbrains.annotations.NotNull;
 
