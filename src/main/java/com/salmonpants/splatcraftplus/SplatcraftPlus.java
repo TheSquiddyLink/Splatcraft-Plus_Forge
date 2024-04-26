@@ -7,7 +7,7 @@ import com.salmonpants.splatcraftplus.items.HeroBlueprint;
 import com.salmonpants.splatcraftplus.items.OrderBlueprint;
 import com.salmonpants.splatcraftplus.items.weapons.hero_weapons.*;
 import com.salmonpants.splatcraftplus.items.weapons.order_weapons.*;
-import com.salmonpants.splatcraftplus.items.weapons.other_weapons.Snipewriter;
+import com.salmonpants.splatcraftplus.items.weapons.other_weapons.*;
 
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
@@ -81,8 +81,9 @@ public class SplatcraftPlus
     public static final RegistryObject<SlosherItem> RAINMAKER = ITEMS.register("rainmaker",() -> new Rainmaker());
     
     // Other Weapons
-    public static final RegistryObject<ChargerItem> TEST = ITEMS.register("snipewriter", () -> new Snipewriter());
-    
+    public static final RegistryObject<ChargerItem> SNIPEWRITER = ITEMS.register("snipewriter", () -> new Snipewriter());
+    public static final RegistryObject<DualieItem> DOUSER_DUALIES = ITEMS.register("douser_dualies", () -> new DouserDualies());
+
     // Palettes
     public static final RegistryObject<Item> EMPTY_PALETTE = ITEMS.register("empty_palette", () -> new EmptyPalette(null));
     public static final RegistryObject<EmptyPalette> BIG_MAN_PALETTE = ITEMS.register("big_man_palette",() -> new EmptyPalette(null));
