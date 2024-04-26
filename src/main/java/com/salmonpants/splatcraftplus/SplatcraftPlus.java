@@ -83,6 +83,7 @@ public class SplatcraftPlus
     // Other Weapons
     public static final RegistryObject<ChargerItem> SNIPEWRITER = ITEMS.register("snipewriter", () -> new Snipewriter());
     public static final RegistryObject<DualieItem> DOUSER_DUALIES = ITEMS.register("douser_dualies", () -> new DouserDualies());
+    public static final RegistryObject<SlosherItem> DREADWRINGER = ITEMS.register("dreadwringer", () -> new Dreadwringer());
 
     // Palettes
     public static final RegistryObject<Item> EMPTY_PALETTE = ITEMS.register("empty_palette", () -> new EmptyPalette(null));
